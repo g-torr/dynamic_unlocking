@@ -13,3 +13,5 @@ The figure 2 in the letter explores different values of the noise level T. To re
 N.B.
 Default parameter of *power.py* are chosen to complete the evaluation in a reasonable time. However  If you want to reproduce the figure run 
 *python -N 200000 --Ts 0.01 1.1 0.01*
+
+[![DOI](https://zenodo.org/badge/355104547.svg)](https://zenodo.org/badge/latestdoi/355104547)
