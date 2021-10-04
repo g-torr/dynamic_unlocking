@@ -80,7 +80,7 @@ def main():
         sys.setrecursionlimit(max_recursions)
     print('Network done')
 
-    data =cavity.cavity_parallel([0.5]*N,Ts,J,theta,threads)# run in parallel at different temperatures
+    data =cavity.cavity_parallel(np.random.rand(N),Ts,J,theta,threads)# run in parallel at different temperatures
     dic = {'data': data, 'J': J, 'Ts': Ts, 'theta': theta}
     save_obj(dic,theta)
 
