@@ -75,9 +75,11 @@ def main():
     J = make_network(N,gamma,bias)
     max_outdegree = max(np.diff(J.indptr))
     max_recursions = int((max_outdegree+1)*(max_outdegree+2)/2)
+    '''
     if max_recursions> sys.getrecursionlimit():
         print("Warning! maximum degree larger than default recursion limit, I 'll update recursion limit to", max_recursions )
         sys.setrecursionlimit(max_recursions)
+    '''
     print('Network done')
 
     data =cavity.cavity_parallel(np.random.rand(N),Ts,J,theta,threads)# run in parallel at different temperatures
