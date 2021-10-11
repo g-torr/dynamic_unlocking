@@ -1,4 +1,4 @@
-# Unlocking heterogeneous node activation in Boolean networks through dynamic programming
+# Overcoming the complexity barrier of the dynamic message-passing method in networks with fat-tailed degree distributions 
 ## :key: Key points 
  Dynamics of agents on network is characterised by the interplay between (thermal) noise  and interaction, the balance between the two has deep effects on the states of the agents. We study the linear threshold model on a random network with direct coupling:  <img src="https://render.githubusercontent.com/render/math?math=n_{i}(t)=  \Theta \big[\sum_j J_{ij}n_j(t-1)\big) -\vartheta_i -z_i(t)\big]">, where  <img src="https://render.githubusercontent.com/render/math?math=z_i(t)"> and  <img src="https://render.githubusercontent.com/render/math?math=J_{ij}"> are the noise and interaction term respectively. 
 We develop an analytical method that performes the average over the noise, so you get the activation probability of each node of the network. Check out our preprint https://arxiv.org/abs/2105.04197  for more.
