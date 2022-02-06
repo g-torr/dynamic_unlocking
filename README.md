@@ -1,8 +1,9 @@
 # Overcoming the complexity barrier of the dynamic message-passing method in networks with fat-tailed degree distributions 
 ## :key: Key points 
  Dynamics of agents on network is characterised by the interplay between (thermal) noise  and interaction, the balance between the two has deep effects on the states of the agents. We study the linear threshold model on a random network with direct coupling:  <img src="https://render.githubusercontent.com/render/math?math=n_{i}(t)=  \Theta \big[\sum_j J_{ij}n_j(t-1)\big) -\vartheta_i -z_i(t)\big]">, where  <img src="https://render.githubusercontent.com/render/math?math=z_i(t)"> and  <img src="https://render.githubusercontent.com/render/math?math=J_{ij}"> are the noise and interaction term respectively. 
-We develop an analytical method that performes the average over the noise, so you get the activation probability of each node of the network. Check out our preprint https://arxiv.org/abs/2105.04197  for more.
- This repository provides the code to reproduce the results of the manuscript . 
+ 
+We develop an analytical method that performes the average over the noise, so you get the activation probability of each node of the network. However, performing this  average requires sampling from a huge space. This contribution provides an efficient way to solve this problem using dynamic programming.   Check out our [article](https://doi.org/10.1103/PhysRevE.104.045313)  or the [preprint](https://arxiv.org/abs/2105.04197)  for more.
+ This repository provides the code to reproduce the results of the manuscrip. 
 
 ## :computer: How to run 
 You need python and jupyter notebook installed in your system. 
